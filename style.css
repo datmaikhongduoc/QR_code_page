@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Rubik+Beastly&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --White--: hsl(0, 0%, 100%);
+  --Light-gray--: hsl(212, 45%, 89%);
+  --Grayish-blue--: hsl(220, 15%, 55%);
+  --Dark-blue--: hsl(218, 44%, 22%);
+  --Weights--small: 400;
+  --Weights--big: 700;
+}
+body {
+  background-color: var(--Light-gray--);
+  padding-top: 10%;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+.container__QRcode {
+  background-color: var(--White--);
+  border-radius: 2rem;
+  width: max-content;
+  margin: auto;
+  text-align: center;
+  height: max-content;
+  padding: 2rem;
+}
+img {
+  border-radius: 2rem;
+  width: 400px;
+}
+h1 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+p {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--Grayish-blue--);
+}
